@@ -40,6 +40,17 @@ h1 {
 
 }
 
+@media screen and (max-width: 800px) {
+    .title {
+		h1 {
+			font-size: 5rem;
+		}
+		span {
+			font-size: 1.2rem;
+		}
+	}
+}
+
 .content {
 	max-width: 800px;
 	margin: 0 auto;
