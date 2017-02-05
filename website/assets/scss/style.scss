@@ -25,6 +25,8 @@ h1 {
 	margin-bottom: 4rem;
 
 	background-color: $color-primary;
+	background-image: url("../img/netjes.jpg");
+	background-position: center;
 
 	h1 {
 		font-size: 8rem;
@@ -58,7 +60,9 @@ h1 {
 }
 
 article {
-	margin-bottom: 2rem;
+	padding-bottom: 1rem;
+	margin-bottom: 1rem;
+	border-bottom: solid 1px $color-primary;
 }
 
 .subtitle {
