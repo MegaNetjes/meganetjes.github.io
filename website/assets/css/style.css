@@ -29,10 +29,12 @@ h1 {
     color: #ff9800; }
 
 @media screen and (max-width: 800px) {
-  .title h1 {
-    font-size: 5rem; }
-  .title span {
-    font-size: 1.2rem; } }
+  .title {
+    margin-bottom: 1rem; }
+    .title h1 {
+      font-size: 5rem; }
+    .title span {
+      font-size: 1.2rem; } }
 
 .content {
   max-width: 800px;
@@ -65,3 +67,7 @@ article {
   background: #e81c4f; }
   .button-primary:hover {
     background: #d51645; }
+
+.copyright {
+  display: block;
+  margin-bottom: 1rem; }

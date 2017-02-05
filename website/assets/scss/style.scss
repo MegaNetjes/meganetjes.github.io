@@ -43,7 +43,10 @@ h1 {
 }
 
 @media screen and (max-width: 800px) {
+
     .title {
+		margin-bottom: 1rem;
+
 		h1 {
 			font-size: 5rem;
 		}
@@ -51,6 +54,7 @@ h1 {
 			font-size: 1.2rem;
 		}
 	}
+	
 }
 
 .content {
@@ -92,4 +96,9 @@ article {
 		background: darken($color-tertiary, 5%);
 	}
 
+}
+
+.copyright {
+	display: block;
+	margin-bottom: 1rem;
 }
